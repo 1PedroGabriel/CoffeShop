@@ -1,0 +1,20 @@
+/* Color Theme Swatches in Hex */
+.Coffee-Shop-Cafe-1-hex { color: #FFFFFF; }
+.Coffee-Shop-Cafe-2-hex { color: #E4B18E; }
+.Coffee-Shop-Cafe-3-hex { color: #AB6E50; }
+.Coffee-Shop-Cafe-4-hex { color: #333333; }
+.Coffee-Shop-Cafe-5-hex { color: #222222; }
+
+/* Color Theme Swatches in RGBA */
+.Coffee-Shop-Cafe-1-rgba { color: rgba(255, 255, 255, 1); }
+.Coffee-Shop-Cafe-2-rgba { color: rgba(228, 177, 142, 1); }
+.Coffee-Shop-Cafe-3-rgba { color: rgba(170, 110, 80, 1); }
+.Coffee-Shop-Cafe-4-rgba { color: rgba(51, 51, 51, 1); }
+.Coffee-Shop-Cafe-5-rgba { color: rgba(33, 33, 33, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Coffee-Shop-Cafe-1-hsla { color: hsla(0, 0, 100, 1); }
+.Coffee-Shop-Cafe-2-hsla { color: hsla(24, 61, 72, 1); }
+.Coffee-Shop-Cafe-3-hsla { color: hsla(19, 36, 49, 1); }
+.Coffee-Shop-Cafe-4-hsla { color: hsla(0, 0, 20, 1); }
+.Coffee-Shop-Cafe-5-hsla { color: hsla(0, 0, 13, 1); }
