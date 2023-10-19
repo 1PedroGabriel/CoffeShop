@@ -33,4 +33,34 @@
             </main>
         </div>
     </body>
+
+    <footer>  
+
+
+        <table>
+            <thead>
+              <tr>
+                <th>Sobre nós</th>
+                <th>Github's</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="#">Nossa empresa</a></td>
+                <td><a href="#">Ailton Barem</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">Nosso café</a></td>
+                <td><a href="#">Rennan Tavares</a></td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td></td>
+                <td><a href="https://github.com/1PedroGabriel" target="blank">Pedro Gabriel</td>
+              </tr>
+            </tfoot>
+          </table>
+          © 2023 CoffeShop. Todos os direitos reservados.
+    </footer>
 </html>

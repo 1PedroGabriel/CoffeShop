@@ -22,14 +22,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
 
 //Route::middleware--------------------
 Route::middleware('auth')->group(function () {
 
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::get('/profile/edit', [ProfileController::class, 'edit']);
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
   
@@ -45,9 +42,17 @@ Route::controller(menuController::class)->group(function () {
 
 Route::controller(homeController::class)->group(function () {
 
-    Route::get('/home', 'index'); 
+    Route::get('/dashboard', 'index');
+
 
 });
+
+Route::controller(aboutController::class)->group(function () {
+
+    Route::get('/sobre', 'index');
+});
+
+
 
 
 require __DIR__.'/auth.php';
