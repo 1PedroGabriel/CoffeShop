@@ -45,7 +45,7 @@
         
         width: 500px;
         height:100px;
-        box-shadow: 0 0 2px black;
+        box-shadow: 0 0 3px black;
 
     }
 
