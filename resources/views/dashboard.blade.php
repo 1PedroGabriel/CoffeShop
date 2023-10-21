@@ -1,32 +1,5 @@
 <x-app-layout>
   
-    <style>
-
-        .main-section-home {
-            display: block;
-            transition-duration:  1s;
-        
-        }
-        .main-div-home{
-
-            width: 80%;
-            margin: auto;
-        }
-        
-        .main-section-home:hover {
-
-            transition-duration:  1s;
-            margin: 0px 20px;
-            
-        }
-
-
-        .div-image{
-            display: table-row;
-        }
-
-
-    </style>
     <div class="main-div-home">
         
         <ul>
