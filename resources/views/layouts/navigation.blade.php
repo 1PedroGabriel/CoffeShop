@@ -23,34 +23,9 @@
       
     }
 
-    .main-section-home {
-        transition-duration: 1s;
-    }
-
-    .main-section-home:hover {
-        margin: 0 20px;
-        transition-duration: 1s;
-    }
-
     .dropdown:hover .dropdown-menu {
         display: block;
     }
-
-    .main-div-home {
-        margin: auto;
-        width: 80%;
-    }
-    .div-product {
-        margin: auto;
-        
-        width: 500px;
-        height:100px;
-        box-shadow: 0 0 2px black;
-
-    }
-
-
-
 </style>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light"> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
